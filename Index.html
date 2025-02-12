@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lancheria JB</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .order-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #ff8c00, #ff4500);
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+            text-decoration: none;
+        }
+        .order-button:hover {
+            transform: scale(1.1);
+            background: linear-gradient(45deg, #ff4500, #ff8c00);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lancheria JB</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="banner">
+        <h2>Os melhores lanches da cidade!</h2>
+        <p>Venha experimentar nossas delícias.</p>
+        <a href="#menu" class="order-button">Peça Agora</a>
+    </section>
+    
+    <section id="menu">
+        <h2>Cardápio</h2>
+        <div class="menu-items">
+            <div class="item"><h3>X-Burger</h3><p>Pão, carne, queijo, alface e tomate</p><a href="#contact" class="order-button">Pedir</a></div>
+            <div class="item"><h3>X-Bacon</h3><p>Pão, carne, queijo, bacon, alface e tomate</p><a href="#contact" class="order-button">Pedir</a></div>
+            <div class="item"><h3>Batata Frita</h3><p>Porção crocante e saborosa</p><a href="#contact" class="order-button">Pedir</a></div>
+            <div class="item"><h3>Refrigerantes</h3><p>Várias opções geladinhas</p><a href="#contact" class="order-button">Pedir</a></div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>A Lancheria JB é referência em sabor e qualidade. Há anos oferecendo os melhores lanches da cidade.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Telefone: (xx) xxxx-xxxx</p>
+        <p>Endereço: Rua das Delícias, 123, Centro</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Lancheria JB - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
